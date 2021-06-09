@@ -1,0 +1,28 @@
+<!-- create a button , when you chick on the button some portion of th paragraph schould be updated-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>button</title>
+		<script>
+			// function definition
+			function changeColor(){
+				document.getElmentById("abcd").style.color."green";
+			}
+			function blackColor(){
+				document.getElmentById("abcd").style.color."black";
+			}
+		</script>
+	</head>
+	<body>
+		<p id="abcd">
+			madblocks MTA web dev bootcamp
+		</p>
+		<button type="button" onclick="changeColor()">
+			Click to change
+		</button>
+		<button type="button" onclick="blackColor()">
+			reset
+		</button>
+	</body>
+</html>
